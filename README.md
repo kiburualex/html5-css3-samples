@@ -12,7 +12,7 @@
         --penguin-beak: orange;
     }
 ```
-styling element, ``var(--penguin-size, 300px);`` the 300px is default if variable --penguin-size has no value
+styling element, ``var(--penguin-size, 300px);`` the 300px is the fallback value if variable --penguin-size has no value
 ```
    .penguin {
         position: relative;
